@@ -1,0 +1,178 @@
+*{
+    background-color: rgb(15, 6, 61);
+    color: lightblue;
+    font-family: 'Orbitron';
+    scroll-behavior: smooth;
+}
+.header{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid lightblue;
+}
+.cover{
+    height: 300px;
+    width: 500px;
+}
+.cover_title{
+    text-align: right;
+    color: lightblue;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Orbitron';
+}
+.head_abt{
+    width: 500px;
+    height: 50px;
+    color: lightblue;
+    font-size: 15px;
+    font-family: 'Orbitron';
+    border-top: 2px solid lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.bullet{
+    font-size: 30px;
+    color: lightblue;
+}
+.content{
+    font-size: 15px;
+    text-decoration: none;
+    color: lightblue;
+}
+.head_content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about{
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+.pic{
+    height:400px;
+    width: 400px;
+    border: 3px solid lightblue;
+    background-image: url(pic.jpeg);
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border-bottom: 2px solid lightblue;
+    margin-bottom: 5px;
+}
+.hello{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.about_body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro{
+    width: 900px;
+}
+.skills_head{
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+.drw_a{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2px;
+}
+.drw3{
+    background-image: url(drw3.jpeg);
+    background-size: contain;
+    width: 233px;
+    height: 350px;
+}
+.drw5{
+    background-image: url(drw5.jpeg);
+    background-size: cover;
+    width: 233px;
+    height: 350px;
+}
+.ex3{
+    height: 800px;
+    width: 70%;
+}
+.border{
+    border: 2px solid lightblue;
+    padding: 3px;
+    margin: 5px;
+}
+.drw_b{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2px;;
+}
+.drw2{
+    background-image: url(drw2.jpeg);
+    background-size: cover;
+    width: 233px;
+    height: 350px;
+}
+.drw4{
+    background-image: url(drw4.jpeg);
+    background-size: cover;
+    width: 233px;
+    height: 350px;
+}
+.contacts{
+    border-bottom: 2px solid lightblue;
+    margin-top: 5px;
+}
+.ex2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.travel_pic{
+    background-image: url(Travel_pic.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 800px;
+}
+.travel_link{
+    text-decoration: none;
+}
+.ex1{
+    height: 450px;
+    width: 50%;
+}
+.codingline1{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.codingline2{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.coding{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    width: 50%;
+    padding: 2px;
+}
+.coding3{
+    background-image: url(coding3pic.jpeg);
+    background-position: cover;
+    height: 200px;
+}

@@ -1,15 +1,29 @@
 *{
-    background-color: rgb(15, 6, 61);
-    color: lightblue;
-    font-family: 'Orbitron';
+    background-color: #010919;
+    color: #f3eef4;
+    font-family: 'Space Mono';
     scroll-behavior: smooth;
+    border-color: #cd2dec;
+}
+.purpleText{
+    color: #cd2dec;
+    font-family: 'Orbitron';
+}
+ul{
+    color: #cd2dec;
+}
+ul li{
+    color: #cd2dec;
+}
+a{
+    color: #cd2dec;
 }
 .header{
     height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid #cd2dec;
 }
 .cover{
     height: 300px;
@@ -17,7 +31,6 @@
 }
 .cover_title{
     text-align: right;
-    color: lightblue;
     width: 500px;
     height: 100px;
     font-size: 50px;
@@ -26,35 +39,32 @@
 .head_abt{
     width: 500px;
     height: 50px;
-    color: lightblue;
     font-size: 15px;
     font-family: 'Orbitron';
-    border-top: 2px solid lightblue;
+    border-top: 2px solid #cd2dec;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 .bullet{
-    font-size: 30px;
-    color: lightblue;
-}
+    font-size: 30px;}
 .content{
     font-size: 15px;
     text-decoration: none;
-    color: lightblue;
 }
 .head_content{
     display: flex;
     justify-content: space-evenly;
 }
 .about{
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid #cd2dec;
     padding-bottom: 10px;
+    width: 100%;
 }
 .pic{
     height:400px;
     width: 400px;
-    border: 3px solid lightblue;
+    border: 3px solid #cd2dec;
     background-image: url(pic.jpeg);
     background-size: cover;
 }
@@ -62,13 +72,16 @@
     display: flex;
     justify-content: center;
     font-size: 25px;
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid #cd2dec;
     margin-bottom: 5px;
 }
 .hello{
     font-size: 30px;
     text-align: left;
     margin-bottom: 25px;
+    color: #cd2dec;
+    font-family: 'Orbitron';
+    font-weight: 700;
 }
 .about_body{
     display: flex;
@@ -78,13 +91,13 @@
     width: 900px;
 }
 .skills_head{
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid #cd2dec;
     padding-bottom: 10px;
 }
 .skills{
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid #cd2dec;
     padding-bottom: 10px;
 }
 .drw_a{
@@ -110,7 +123,7 @@
     width: 70%;
 }
 .border{
-    border: 2px solid lightblue;
+    border: 2px solid #cd2dec;
     padding: 3px;
     margin: 5px;
 }
@@ -133,7 +146,7 @@
     height: 350px;
 }
 .contacts{
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid #cd2dec;
     margin-top: 5px;
 }
 .ex2{
@@ -165,7 +178,6 @@
     justify-content: center;
 }
 .coding{
-    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     width: 50%;
@@ -175,4 +187,20 @@
     background-image: url(coding3pic.jpeg);
     background-position: cover;
     height: 200px;
+}
+.purpleBox{
+    background-color: #cd2dec;
+    color: #000;
+    border-color: #f3eef4;
+}
+.linkedin{
+    text-decoration: none;
+}
+.footer{
+    font-family: 'Orbitron';
+    font-size: 20px;
+    background-color: #cd2dec;
+    color: #010919;
+    border-color: #f3eef4;
+    font-weight: 700;
 }

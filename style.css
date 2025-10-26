@@ -154,7 +154,7 @@ a{
     justify-content: space-evenly;
 }
 .travel_pic{
-    background-image: url(Travel_pic.png);
+    background-image: url(travelpic.jpeg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -204,3 +204,4 @@ a{
     border-color: #f3eef4;
     font-weight: 700;
 }
+
